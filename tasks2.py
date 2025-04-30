@@ -23,7 +23,7 @@ def remove_task(task):
         return "Task not found."
 
 def list_tasks():
-    return tasks
+    return list(tasks)  # Return a copy to prevent external modification
 
 # Example usage
 # print(add_task("Buy groceries"))
