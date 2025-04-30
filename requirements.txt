@@ -1,0 +1,7 @@
+Flask>=2.0
+python-dotenv>=0.21
+
+# Development tools
+ipython
+pytest
+pytest-flask 
