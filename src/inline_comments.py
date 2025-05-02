@@ -42,4 +42,4 @@ if __name__ == "__main__":
     wind_direction = weather_df['wind_direction'].to_numpy()
 
     # Convert wind direction from degrees to radians for trigonometric calculations
-    wind_direction_rad = np.deg2rad(wind_direction)
+wind_direction_rad = np.deg2rad(wind_direction)
